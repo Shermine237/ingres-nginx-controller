@@ -4,7 +4,8 @@
 <ol>
     <li>Pull ingress-nginx-controller v1.1.3</li>
         <p>
-            sudo ctr -n=k8s.io image pull k8s.gcr.io/ingress-nginx/controller:v1.1.3
+            sudo ctr -n=k8s.io image pull k8s.gcr.io/ingress-nginx/controller:v1.1.3<br/>
+            sudo ctr -n=k8s.io image pull k8s.gcr.io/ingress-nginx/kube-webhook-certgen:v1.1.1
         </p>
     <li>Apply installation yml</li>
         <p>
