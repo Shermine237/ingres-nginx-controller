@@ -1,5 +1,9 @@
 # HOW TO INSTALL INGRESS NGINX-CONTROLLER
-## Installation
+## Fast installation
+```bash
+git clone
+```
+## Installation with file
 ```bash
 git clone https://github.com/Shermine237/ingres-nginx-controller.git
 cd ingres-nginx-controller
