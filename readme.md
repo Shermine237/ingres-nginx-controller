@@ -1,7 +1,7 @@
 # HOW TO INSTALL INGRESS NGINX-CONTROLLER
 ## Fast installation
 ```bash
-git clone
+kubectl apply -f https://raw.githubusercontent.com/Shermine237/ingres-nginx-controller/main/ingress-nginx-controller-V1_11_1-installer.yml
 ```
 ## Installation with file
 ```bash
